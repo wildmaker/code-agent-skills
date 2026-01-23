@@ -1,7 +1,6 @@
 ---
 name: git-commit
 description: Document git-commit skill workflow and constraints
-version: 0.1.1
 ---
 
 # git-commit
@@ -24,3 +23,4 @@ Define the workflow and constraints for creating a local git commit from current
 - `git diff`
 - `git add`
 - `git commit`
+- `git stash`
