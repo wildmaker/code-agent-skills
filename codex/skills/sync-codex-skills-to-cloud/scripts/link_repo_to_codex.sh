@@ -77,4 +77,3 @@ done < <(find "$REPO_CODEX_SKILLS_DIR" -mindepth 1 -maxdepth 1 -type d -print0)
 if [[ ${#linked[@]} -eq 0 ]]; then
   echo "NO_CHANGES"
 fi
-

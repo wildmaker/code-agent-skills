@@ -6,7 +6,7 @@ set -euo pipefail
 #######################################
 
 # repo 根目录（不是 skills 目录）
-REPO_ROOT="/Users/wildmaker/Documents/Projects/skills-sync"
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../../.." && pwd)"
 
 # repo 中 codex skills 的最终位置
 REPO_CODEX_SKILLS_DIR="$REPO_ROOT/codex/skills"
